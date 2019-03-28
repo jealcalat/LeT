@@ -1,5 +1,14 @@
 """
-Simulations of timing models
+Simulations Learning to Time
+
+    lambda ~ N(x, mu, sigma), and lambda > 0; is the transition rate between states
+    every j trial a new value of lambda is sampled.
+    N(t) is the state active in the t-time since trial, wich depends on lambda and t,
+    so, N(t) = ceil (lambda * t)
+
+
+
+
 """
 import numpy as np
 import matplotlib.pyplot as plt

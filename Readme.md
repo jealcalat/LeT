@@ -1,5 +1,7 @@
 # Learning to Time implementation in Python
 
+This is a work in progress
+
 ## References
 
 de Carvalho, M. P., Machado, A., & Vasconcelos, M. (2016). Animal timing: a synthetic approach. *Animal cognition*, *19*(4), 707-732.
