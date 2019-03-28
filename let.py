@@ -7,8 +7,6 @@ Simulations Learning to Time
     so, N(t) = ceil (lambda * t)
 
 
-
-
 """
 import numpy as np
 import matplotlib.pyplot as plt
