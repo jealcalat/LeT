@@ -32,11 +32,11 @@ def n_t(t, mean, sd):
     return nt_iter
 
 
-t = 20
+t = 40
 time = np.arange(t)
 mean = 1
 sd = 0.2
-trials = 200
+trials = 400
 trial_rf = np.zeros(trials)
 
 gs = gridspec.GridSpec(1, 4, wspace = 0.02)
@@ -48,8 +48,9 @@ for jj in np.arange(trials):
     trial_rf[jj] = Nt[-1]
     ax1.step(time,Nt, c = 'grey', lw = 1, alpha = 0.5)
 
-ax1.text(5, np.max(trial_rf) - 2, r'$\lambda \sim \mathcal{N}(\mu = 1, \sigma = 0.2)$' "\n"
-         r'$T = 20$' + ", 200 trials",
+ax1.text(10, np.max(trial_rf) - 2,
+         r'$\lambda \sim \mathcal{{N}}(\mu = 1, \sigma = {{{}}})$'.format(sd) + "\n"
+         r'$T = {{}}$'.format(t) + ", {} trials".format(trials),
          {'color': 'k', 'fontsize': 10, 'ha': 'center', 'va': 'center',
           'bbox': dict(boxstyle="round", fc="w", ec="k", pad=0.2)})
 ax1.set_xlabel('$t$ (time in trial)')
@@ -61,7 +62,9 @@ ax2.set_ylim(0,np.max(trial_rf))
 ax2.yaxis.set_label_position("right")
 ax2.axhline(y = np.mean(trial_rf), color = 'black', linestyle = ":")
 ax2.set_ylabel(r'$N(t = T)$')
+plt.savefig('nt_let.png', dpi = 300)
 plt.show()
+
 
 
 def learn2time(t, T, parameters):
