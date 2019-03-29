@@ -13,7 +13,8 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib import rc
 rc('text', usetex=True)
-rc('figure', figsize = (5.5, 4))
+rc('figure', figsize=(5.5, 4))
+rc('axes', ymargin=0)
 
 """
 Simulate N(t) = ceiling(lambda * t), with lambda normally distributed. In "Learning to time: a perspective", 
@@ -22,10 +23,16 @@ Appendix, they simulate two 'walks' with lambda = {0.8,1.2} sampled from N(1,0.2
 
 
 def n_t(t, mean, sd):
+    """
+    lambda admit just positive values
+    """
 
     lmbd = np.random.normal(mean, sd, 1)
     vec_time = np.arange(t)
     nt_iter = np.zeros(t)
+
+    while lmbd < 0:
+        lmbd = np.random.normal(mean, sd, 1)
 
     for j in vec_time:
         nt_iter[j] = np.ceil(lmbd*j)
@@ -47,6 +54,7 @@ for jj in np.arange(trials):
     Nt = n_t(t, mean, sd)
     trial_rf[jj] = Nt[-1]
     ax1.step(time,Nt, c = 'grey', lw = 1, alpha = 0.5)
+    ax1.scatter(time[-1], Nt[-1], c = 'black', s =  10, alpha = 0.5)
 
 ax1.text(10, np.max(trial_rf) - 2,
          r'$\lambda \sim \mathcal{{N}}(\mu = 1, \sigma = {{{}}})$'.format(sd) + "\n"
@@ -62,7 +70,7 @@ ax2.set_ylim(0,np.max(trial_rf))
 ax2.yaxis.set_label_position("right")
 ax2.axhline(y = np.mean(trial_rf), color = 'black', linestyle = ":")
 ax2.set_ylabel(r'$N(t = T)$')
-plt.savefig('nt_let.png', dpi = 120)
+#  plt.savefig('nt_let.png', dpi = 120)
 plt.show()
 
 

@@ -2,6 +2,14 @@
 
 This is a work in progress
 
+This simulation uses Python 3.
+
+## States dynamics
+
+$$\lambda \sim \mathcal{N} (\mu, \sigma)$$
+
+The $N$ states are activated serially. There are no upper bound of the states that can be activated. 
+
 ## References
 
 de Carvalho, M. P., Machado, A., & Vasconcelos, M. (2016). Animal timing: a synthetic approach. *Animal cognition*, *19*(4), 707-732.

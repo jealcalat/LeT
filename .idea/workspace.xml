@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9266f32b-bf8b-4412-981b-bc612f8e7622" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace (Copia en conflicto de mrrobot 2019-03-29).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nt_let.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/let.py" beforeDir="false" afterPath="$PROJECT_DIR$/let.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nt_let.png" beforeDir="false" afterPath="$PROJECT_DIR$/nt_let.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,14 +27,18 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LET_sims" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/let.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="450">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
+                <element signature="e#0#293#1" expanded="true" />
                 <element signature="e#295#313#0" expanded="true" />
               </folding>
             </state>
@@ -46,7 +49,9 @@
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -60,17 +65,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/../ISLR_py/ISRLpy_ch1.ipynb" />
         <option value="$PROJECT_DIR$/let.py" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="32" />
-    <option name="width" value="1920" />
-    <option name="height" value="1011" />
+    <option name="y" value="40" />
+    <option name="width" value="1919" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -96,7 +100,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -191,7 +195,10 @@
       <updated>1553749335647</updated>
       <workItem from="1553799236227" duration="341000" />
       <workItem from="1553828230594" duration="12944000" />
-      <workItem from="1553873749226" duration="4969000" />
+      <workItem from="1553873749226" duration="6432000" />
+      <workItem from="1553895379053" duration="2953000" />
+      <workItem from="1553898354900" duration="67000" />
+      <workItem from="1553898486661" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="sim lambda">
       <created>1553844879605</created>
@@ -214,37 +221,61 @@
       <option name="project" value="LOCAL" />
       <updated>1553845314247</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/jealcalat/LeT&#10;&#10;# Conflicts:&#10;#&#9;let.py">
+      <created>1553886953372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553886953373</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge branch 'master' of https://github.com/jealcalat/LeT&#10;&#10;# Conflicts:&#10;#&#9;let.py">
+      <created>1553888098657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553888098657</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18254000" />
+    <option name="totallyTimeSpent" value="23428000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="32" width="1920" height="1011" extended-state="0" />
+    <frame x="0" y="40" width="1919" height="1002" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07356077" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49886876" visible="true" weight="0.0752" />
+      <window_info id="Structure" order="1" sideWeight="0.50113124" side_tool="true" weight="0.07401491" />
+      <window_info id="Favorites" order="2" sideWeight="0.50113124" side_tool="true" weight="0.07401491" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.24434389" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.328341" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32918552" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49840257" weight="0.23529412" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.1889401" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.365625" side_tool="true" weight="0.23646408" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.6341853" visible="true" weight="0.25206125" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
-      <window_info anchor="right" x="1954" y="91" width="773" height="558" id="SciView" order="4" sideWeight="0.8696398" visible="true" weight="0.2979744" />
-      <window_info anchor="right" x="0" y="0" width="430" height="808" id="Documentation" order="5" sideWeight="0.1303602" side_tool="true" visible="true" weight="0.2979744" />
+      <window_info anchor="right" id="Database" order="3" sideWeight="0.4219219" weight="0.32960597" />
+      <window_info anchor="right" x="1942" y="56" width="617" height="530" id="SciView" order="4" sideWeight="0.702509" type="WINDOWED" weight="0.29765707" />
+      <window_info active="true" anchor="right" x="0" y="0" width="430" height="808" id="Documentation" order="5" sideWeight="0.5780781" side_tool="true" visible="true" weight="0.1248" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,26 +331,32 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../ISLR_py/ISRLpy_ch1.ipynb" />
-    <entry file="file://$PROJECT_DIR$/let.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="e#295#313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/nt_let.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/let.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#293#1" expanded="true" />
+            <element signature="e#295#313#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
