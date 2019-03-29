@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib import rc
 rc('text', usetex=True)
-
+rc('figure', figsize = (5.5, 4))
 
 """
 Simulate N(t) = ceiling(lambda * t), with lambda normally distributed. In "Learning to time: a perspective", 
@@ -39,7 +39,7 @@ sd = 0.2
 trials = 400
 trial_rf = np.zeros(trials)
 
-gs = gridspec.GridSpec(1, 4, wspace = 0.02)
+gs = gridspec.GridSpec(1, 4, wspace = 0.04)
 ax1 = plt.subplot(gs[0,0:3])
 ax2 = plt.subplot(gs[0,3])
 
@@ -62,7 +62,7 @@ ax2.set_ylim(0,np.max(trial_rf))
 ax2.yaxis.set_label_position("right")
 ax2.axhline(y = np.mean(trial_rf), color = 'black', linestyle = ":")
 ax2.set_ylabel(r'$N(t = T)$')
-plt.savefig('nt_let.png', dpi = 300)
+plt.savefig('nt_let.png', dpi = 120)
 plt.show()
 
 
