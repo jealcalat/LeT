@@ -21,7 +21,6 @@ Simulate N(t) = ceiling(lambda * t), with lambda normally distributed. In "Learn
 Appendix, they simulate two 'walks' with lambda = {0.8,1.2} sampled from N(1,0.2)
 """
 
-
 def n_t(t, mean, sd):
     """
     lambda admit just positive values
@@ -74,7 +73,8 @@ ax2.set_ylabel(r'$N(t = T)$')
 plt.show()
 
 
-
+"""
+Old sim, with gamma distribution. 
 def learn2time(t, T, parameters):
 
     lambd = parameters[0]
@@ -120,3 +120,5 @@ plt.title('Learning to Time')
 plt.axvline(x=t[np.argmax(Rsim)], color='red', linestyle='--')
 plt.text(t[np.argmax(Rsim)] + 5, np.max(Rsim), 'time is %d sec' % t[np.argmax(Rsim)])
 plt.show()
+"""
+

@@ -4,6 +4,11 @@ This is a work in progress
 
 This simulation uses Python 3.
 
+[Read the pdf tutorial here (Typesetted in LaTeX, obviously).](out/let_sim.pdf)
+
+[Here is the python file (in progress)](let.py)
+
+
 ## References
 
 de Carvalho, M. P., Machado, A., & Vasconcelos, M. (2016). Animal timing: a synthetic approach. *Animal cognition*, *19*(4), 707-732.
