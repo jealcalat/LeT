@@ -81,9 +81,9 @@ On which $\Phi (\cdot)$ is the \textit{cumulative distribution function (CDF)}, 
         \Phi \Big( \frac{n}{T}, \mu, \sigma \Big) = \frac{1}{\sigma \sqrt{2 \pi}} \int\limits_{-\infty}^{\frac{n}{T}} \exp^{-(x - \mu)/2\sigma^2}dx
     \]
 
-But since $t > 0$, we are just interested in evaluate the integral in the domain [0,$\frac{n}{T}$] \footnote{Of course,
+But since $t > 0$, we are just interested in evaluate the integral in the domain (0,$\frac{n}{T}$] \footnote{Of course,
     we should subtract first the integral of the domain $[-\infty, 0]$, but is a very small quantity, so it's negligible.}.
-$\Phi$ doesn't have a closed form solution, and it's often approximated by Taylor expansion of the form
+$\Phi$ doesn't have a closed form solution, and it's often approximated by Taylor expansion with
 
     \[
         \exp^{u} = \sum^{k=0}_{\infty} \frac{u^k}{k!}, \; \text{for } u = \frac{-(x - \mu)}{2 \sigma^2}
@@ -97,7 +97,7 @@ and $T = 40$, $q(15,40) = P \Big( \lambda > \frac{15}{40} \Big)$ or $1 - \Phi(\f
 
     \begin{verbatim}
         from scipy.stats import norm
-        1 - norm.cdf(n/T,loc=1,scale=0.2)2
+        1 - norm.cdf(n/T,loc=1,scale=0.2)
     \end{verbatim}
 
 Returns 0.99911, that is, the probability (actually, the density, or the area under the curve, etc) of state 15 being a
