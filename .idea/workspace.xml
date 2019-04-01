@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9266f32b-bf8b-4412-981b-bc612f8e7622" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/let.py" beforeDir="false" afterPath="$PROJECT_DIR$/let.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/let_sim.tex" beforeDir="false" afterPath="$PROJECT_DIR$/let_sim.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nt_let.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/let_sim.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/let_sim.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/let_sim.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/let_sim.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.synctex.gz" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,43 +42,118 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/let.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="66" column="22" lean-forward="true" selection-start-line="9" selection-end-line="72" selection-end-column="10" />
+            <state relative-caret-position="570">
+              <caret line="165" column="4" lean-forward="true" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="37" />
               <folding>
-                <element signature="e#0#293#1" expanded="true" />
-                <element signature="e#295#313#0" expanded="true" />
-                <element signature="e#489#688#1" expanded="true" />
-                <element signature="e#717#766#1" expanded="true" />
+                <element signature="e#0#294#1" expanded="true" />
+                <element signature="e#296#314#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <first_editor relative-caret-position="285">
+                <caret line="19" selection-start-line="19" selection-end-line="19" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/let_sim.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+            <state relative-caret-position="464">
+              <caret line="135" column="8" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
               <folding>
                 <element signature="e#89#109#2" expanded="true" />
+                <element signature="e#621#628#3" expanded="true" />
+                <element signature="e#682#689#2" expanded="true" />
+                <element signature="e#690#694#2" expanded="true" />
+                <element signature="e#708#711#2" expanded="true" />
+                <element signature="e#713#719#2" expanded="true" />
+                <element signature="e#724#731#2" expanded="true" />
+                <element signature="e#760#764#3" expanded="true" />
+                <element signature="e#1004#1011#2" expanded="true" />
+                <element signature="e#1210#1217#3" expanded="true" />
+                <element signature="e#1395#1398#3" expanded="true" />
+                <element signature="e#1405#1411#3" expanded="true" />
+                <element signature="e#1431#1434#2" expanded="true" />
+                <element signature="e#1472#1479#3" expanded="true" />
+                <element signature="e#1530#1536#2" expanded="true" />
+                <element signature="e#1600#1606#2" expanded="true" />
+                <element signature="e#1756#1759#2" expanded="true" />
+                <element signature="e#1762#1768#2" expanded="true" />
+                <element signature="e#1793#1796#2" expanded="true" />
+                <element signature="e#1919#1922#2" expanded="true" />
+                <element signature="e#2059#2066#3" expanded="true" />
+                <element signature="e#2297#2304#3" expanded="true" />
+                <element signature="e#2540#2543#2" expanded="true" />
+                <element signature="e#2544#2550#2" expanded="true" />
+                <element signature="e#2578#2584#2" expanded="true" />
+                <element signature="e#2585#2591#2" expanded="true" />
+                <element signature="e#3194#3201#2" expanded="true" />
+                <element signature="e#3253#3260#2" expanded="true" />
+                <element signature="e#3288#3295#2" expanded="true" />
+                <element signature="e#3317#3321#2" expanded="true" />
+                <element signature="e#3341#3344#2" expanded="true" />
+                <element signature="e#3346#3352#2" expanded="true" />
+                <element signature="e#3378#3382#2" expanded="true" />
+                <element signature="e#3384#3389#2" expanded="true" />
+                <element signature="e#3504#3508#2" expanded="true" />
+                <element signature="e#3528#3531#2" expanded="true" />
+                <element signature="e#3533#3539#2" expanded="true" />
+                <element signature="e#3557#3563#3" expanded="true" />
+                <element signature="e#3572#3575#3" expanded="true" />
+                <element signature="e#3578#3582#2" expanded="true" />
+                <element signature="e#3592#3598#3" expanded="true" />
+                <element signature="e#3626#3629#3" expanded="true" />
+                <element signature="e#3632#3638#3" expanded="true" />
+                <element signature="e#3831#3837#2" expanded="true" />
+                <element signature="e#3897#3901#3" expanded="true" />
+                <element signature="e#4027#4031#2" expanded="true" />
+                <element signature="e#4039#4045#3" expanded="true" />
+                <element signature="e#4094#4097#3" expanded="true" />
+                <element signature="e#4102#4108#3" expanded="true" />
+                <element signature="e#4256#4259#2" expanded="true" />
+                <element signature="e#4265#4271#2" expanded="true" />
+                <element signature="e#4321#4328#2" expanded="true" />
+                <element signature="e#4360#4364#2" expanded="true" />
+                <element signature="e#5058#5061#2" expanded="true" />
+                <element signature="e#5067#5073#2" expanded="true" />
+                <element signature="e#5144#5151#2" expanded="true" />
+                <element signature="e#5356#5363#2" expanded="true" />
+                <element signature="e#5395#5402#2" expanded="true" />
+                <element signature="e#5441#5448#2" expanded="true" />
+                <element signature="e#5480#5487#2" expanded="true" />
+                <element signature="e#5514#5521#2" expanded="true" />
+                <element signature="e#5556#5563#2" expanded="true" />
+                <element signature="e#5689#5696#2" expanded="true" />
+                <element signature="e#5719#5726#2" expanded="true" />
+                <element signature="e#5732#5736#2" expanded="true" />
+                <element signature="e#5757#5760#2" expanded="true" />
+                <element signature="e#5761#5767#2" expanded="true" />
+                <element signature="e#5903#5907#2" expanded="true" />
+                <element signature="e#5928#5931#2" expanded="true" />
+                <element signature="e#5933#5939#2" expanded="true" />
+                <element signature="e#5948#5952#2" expanded="true" />
+                <element signature="e#5976#5979#2" expanded="true" />
+                <element signature="e#5980#5986#2" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lambda</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,14 +162,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../ISLR_py/ISRLpy_ch1.ipynb" />
+        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/let.py" />
         <option value="$PROJECT_DIR$/let_sim.tex" />
-        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="40" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-95" />
+    <option name="y" value="42" />
     <option name="width" value="1919" />
     <option name="height" value="1002" />
   </component>
@@ -98,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,6 +195,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,7 +203,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="TexifyConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -234,7 +315,11 @@
       <workItem from="1553873749226" duration="6432000" />
       <workItem from="1553895379053" duration="2953000" />
       <workItem from="1553898354900" duration="67000" />
-      <workItem from="1553898486661" duration="5148000" />
+      <workItem from="1553898486661" duration="6079000" />
+      <workItem from="1553972616890" duration="546000" />
+      <workItem from="1553973411308" duration="8357000" />
+      <workItem from="1554058084668" duration="13758000" />
+      <workItem from="1554092806719" duration="4294000" />
     </task>
     <task id="LOCAL-00001" summary="sim lambda">
       <created>1553844879605</created>
@@ -299,11 +384,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553902543827</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="URLs">
+      <created>1553911151213</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553911151213</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27885000" />
+    <option name="totallyTimeSpent" value="55771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,31 +407,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="40" width="1919" height="1002" extended-state="0" />
+    <frame x="0" y="42" width="1920" height="1008" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49886876" visible="true" weight="0.1516284" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49886876" visible="true" weight="0.09478168" />
       <window_info id="Structure" order="1" sideWeight="0.50113124" side_tool="true" weight="0.07401491" />
       <window_info id="Favorites" order="2" sideWeight="0.50113124" side_tool="true" weight="0.07401491" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24381626" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5772098" visible="true" weight="0.3337156" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32918552" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49840257" weight="0.2343934" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.365625" side_tool="true" weight="0.23646408" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.6341853" visible="true" weight="0.25206125" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298611" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4227902" side_tool="true" weight="0.24197248" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.6341853" weight="0.18004587" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.4219219" weight="0.32960597" />
-      <window_info anchor="right" x="1938" y="65" width="625" height="525" id="SciView" order="4" sideWeight="0.702509" type="WINDOWED" visible="true" weight="0.29765707" />
-      <window_info anchor="right" x="0" y="0" width="430" height="808" id="Documentation" order="5" sideWeight="0.5780781" side_tool="true" weight="0.3456" />
+      <window_info anchor="right" x="1942" y="146" width="1033" height="518" id="SciView" order="4" sideWeight="0.702509" type="WINDOWED" weight="0.29765707" />
+      <window_info anchor="right" x="0" y="0" width="430" height="808" id="Documentation" order="5" sideWeight="0.5780781" side_tool="true" visible="true" weight="0.3455804" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,44 +481,21 @@
     <MESSAGE value="sim lambda" />
     <MESSAGE value="Merge branch 'master' of https://github.com/jealcalat/LeT&#10;&#10;# Conflicts:&#10;#&#9;let.py" />
     <MESSAGE value="latex added" />
-    <option name="LAST_COMMIT_MESSAGE" value="latex added" />
+    <MESSAGE value="URLs" />
+    <option name="LAST_COMMIT_MESSAGE" value="URLs" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LET_sims$let.coverage" NAME="let Coverage Results" MODIFIED="1553829226386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../ISLR_py/ISRLpy_ch1.ipynb" />
-    <entry file="file://$PROJECT_DIR$/nt_let.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/let.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="66" column="22" lean-forward="true" selection-start-line="9" selection-end-line="72" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#293#1" expanded="true" />
-            <element signature="e#295#313#0" expanded="true" />
-            <element signature="e#489#688#1" expanded="true" />
-            <element signature="e#717#766#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/let_sim.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-          <folding>
-            <element signature="e#89#109#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nt_let.png" />
+    <entry file="file://$PROJECT_DIR$/lambda_nT.png" />
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <first_editor relative-caret-position="285">
+            <caret line="19" selection-start-line="19" selection-end-line="19" />
           </first_editor>
           <second_editor />
         </state>
@@ -434,6 +503,99 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/let.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="165" column="4" lean-forward="true" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#294#1" expanded="true" />
+            <element signature="e#296#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/let_sim.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="135" column="8" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
+          <folding>
+            <element signature="e#89#109#2" expanded="true" />
+            <element signature="e#621#628#3" expanded="true" />
+            <element signature="e#682#689#2" expanded="true" />
+            <element signature="e#690#694#2" expanded="true" />
+            <element signature="e#708#711#2" expanded="true" />
+            <element signature="e#713#719#2" expanded="true" />
+            <element signature="e#724#731#2" expanded="true" />
+            <element signature="e#760#764#3" expanded="true" />
+            <element signature="e#1004#1011#2" expanded="true" />
+            <element signature="e#1210#1217#3" expanded="true" />
+            <element signature="e#1395#1398#3" expanded="true" />
+            <element signature="e#1405#1411#3" expanded="true" />
+            <element signature="e#1431#1434#2" expanded="true" />
+            <element signature="e#1472#1479#3" expanded="true" />
+            <element signature="e#1530#1536#2" expanded="true" />
+            <element signature="e#1600#1606#2" expanded="true" />
+            <element signature="e#1756#1759#2" expanded="true" />
+            <element signature="e#1762#1768#2" expanded="true" />
+            <element signature="e#1793#1796#2" expanded="true" />
+            <element signature="e#1919#1922#2" expanded="true" />
+            <element signature="e#2059#2066#3" expanded="true" />
+            <element signature="e#2297#2304#3" expanded="true" />
+            <element signature="e#2540#2543#2" expanded="true" />
+            <element signature="e#2544#2550#2" expanded="true" />
+            <element signature="e#2578#2584#2" expanded="true" />
+            <element signature="e#2585#2591#2" expanded="true" />
+            <element signature="e#3194#3201#2" expanded="true" />
+            <element signature="e#3253#3260#2" expanded="true" />
+            <element signature="e#3288#3295#2" expanded="true" />
+            <element signature="e#3317#3321#2" expanded="true" />
+            <element signature="e#3341#3344#2" expanded="true" />
+            <element signature="e#3346#3352#2" expanded="true" />
+            <element signature="e#3378#3382#2" expanded="true" />
+            <element signature="e#3384#3389#2" expanded="true" />
+            <element signature="e#3504#3508#2" expanded="true" />
+            <element signature="e#3528#3531#2" expanded="true" />
+            <element signature="e#3533#3539#2" expanded="true" />
+            <element signature="e#3557#3563#3" expanded="true" />
+            <element signature="e#3572#3575#3" expanded="true" />
+            <element signature="e#3578#3582#2" expanded="true" />
+            <element signature="e#3592#3598#3" expanded="true" />
+            <element signature="e#3626#3629#3" expanded="true" />
+            <element signature="e#3632#3638#3" expanded="true" />
+            <element signature="e#3831#3837#2" expanded="true" />
+            <element signature="e#3897#3901#3" expanded="true" />
+            <element signature="e#4027#4031#2" expanded="true" />
+            <element signature="e#4039#4045#3" expanded="true" />
+            <element signature="e#4094#4097#3" expanded="true" />
+            <element signature="e#4102#4108#3" expanded="true" />
+            <element signature="e#4256#4259#2" expanded="true" />
+            <element signature="e#4265#4271#2" expanded="true" />
+            <element signature="e#4321#4328#2" expanded="true" />
+            <element signature="e#4360#4364#2" expanded="true" />
+            <element signature="e#5058#5061#2" expanded="true" />
+            <element signature="e#5067#5073#2" expanded="true" />
+            <element signature="e#5144#5151#2" expanded="true" />
+            <element signature="e#5356#5363#2" expanded="true" />
+            <element signature="e#5395#5402#2" expanded="true" />
+            <element signature="e#5441#5448#2" expanded="true" />
+            <element signature="e#5480#5487#2" expanded="true" />
+            <element signature="e#5514#5521#2" expanded="true" />
+            <element signature="e#5556#5563#2" expanded="true" />
+            <element signature="e#5689#5696#2" expanded="true" />
+            <element signature="e#5719#5726#2" expanded="true" />
+            <element signature="e#5732#5736#2" expanded="true" />
+            <element signature="e#5757#5760#2" expanded="true" />
+            <element signature="e#5761#5767#2" expanded="true" />
+            <element signature="e#5903#5907#2" expanded="true" />
+            <element signature="e#5928#5931#2" expanded="true" />
+            <element signature="e#5933#5939#2" expanded="true" />
+            <element signature="e#5948#5952#2" expanded="true" />
+            <element signature="e#5976#5979#2" expanded="true" />
+            <element signature="e#5980#5986#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,16 +3,17 @@ Simulations Learning to Time
 
     lambda ~ N(x, mu, sigma), and lambda > 0; is the transition rate between states
     every j trial a new value of lambda is sampled.
-    N(t) is the state active in the t-time since trial, wich depends on lambda and t,
+    N(t) is the state active in the t-time since trial, which depends on lambda and t,
     so, N(t) = ceil (lambda * t)
 
 """
 
 import numpy as np
+from scipy.stats import norm
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib import rc
-rc('text', usetex=True)
+rc('text', usetex=True)  # if LaTeX is installed, otherwise comment
 rc('figure', figsize=(5.5, 4))
 rc('axes', ymargin=0)
 
@@ -39,25 +40,25 @@ def n_t(t, mean, sd):
 
 
 t = 40
-time = np.arange(t)
+time = np.arange(t)+1
 mean = 1
 sd = 0.2
-trials = 400
+trials = 200
 trial_rf = np.zeros(trials)
 
-gs = gridspec.GridSpec(1, 4, wspace = 0.04)
+gs = gridspec.GridSpec(1, 4, wspace = 0.06)
 ax1 = plt.subplot(gs[0,0:3])
 ax2 = plt.subplot(gs[0,3])
 
 for jj in np.arange(trials):
     Nt = n_t(t, mean, sd)
     trial_rf[jj] = Nt[-1]
-    ax1.step(time,Nt, c = 'grey', lw = 1, alpha = 0.5)
+    ax1.step(time,Nt, c = 'grey', lw = 1, alpha = 0.3)
     ax1.scatter(time[-1], Nt[-1], c = 'black', s =  10, alpha = 0.5)
 
-ax1.text(10, np.max(trial_rf) - 2,
-         r'$\lambda \sim \mathcal{{N}}(\mu = 1, \sigma = {{{}}})$'.format(sd) + "\n"
-         r'$T = {{}}$'.format(t) + ", {} trials".format(trials),
+ax1.text(10, np.max(trial_rf) - 5,
+         r'$\lambda \sim \mathcal{{N}}(\mu = 1, \sigma = {{{}}})$'.format(sd) + "\n" +
+         r'$T = {{{}}}$'.format(t) + ", {} trials".format(trials),
          {'color': 'k', 'fontsize': 10, 'ha': 'center', 'va': 'center',
           'bbox': dict(boxstyle="round", fc="w", ec="k", pad=0.2)})
 ax1.set_xlabel('$t$ (time in trial)')
@@ -69,7 +70,7 @@ ax2.set_ylim(0,np.max(trial_rf))
 ax2.yaxis.set_label_position("right")
 ax2.axhline(y = np.mean(trial_rf), color = 'black', linestyle = ":")
 ax2.set_ylabel(r'$N(t = T)$')
-#  plt.savefig('nt_let.png', dpi = 120)
+plt.savefig('nt_let.pdf', dpi = 120)
 plt.show()
 
 
@@ -121,4 +122,48 @@ plt.axvline(x=t[np.argmax(Rsim)], color='red', linestyle='--')
 plt.text(t[np.argmax(Rsim)] + 5, np.max(Rsim), 'time is %d sec' % t[np.argmax(Rsim)])
 plt.show()
 """
+
+"""
+How to compute probabilities:
+
+Example of P(lambda > n/T), if n = 15, T = 40. Intuitively P will be high
+First let see how this density looks with the following code. 
+Copy-paste and run
+
+import numpy as np
+from scipy.stats import norm
+import matplotlib.pyplot as plt
+from matplotlib import rc
+rc('text', usetex=True)  # if LaTeX is installed, otherwise comment
+rc('figure', figsize=(5.5, 4))
+
+T, n = 40, 15
+
+t = np.arange(0, 100, 0.1)
+pt = norm.pdf(t, loc=1 * T, scale=0.2 * T)
+pla = 1 - norm.cdf(n/T,loc=1,scale=0.2).round(5)
+# rc('axes', ymargin=0.01)
+
+fig, ax = plt.subplots()
+ax.plot(t, pt, 'b-', linewidth=1)
+ax.axvline(x=n, linestyle="--", color = 'b',lw = 1)
+ax.fill_between(t[t>n],pt[t>n],0, alpha=0.5, color='grey')
+ax.annotate("$n = 15$",xy = (n,pt[t == n]), xytext = (0,0.01),
+            arrowprops=dict(arrowstyle="->"))
+ax.text(60, np.max(pt)/2,
+         r'$P(\lambda > \frac{{15}}{{40}}) \approx {{{}}}$'.format(pla),
+         {'color': 'k', 'fontsize': 10, 'ha': 'center', 'va': 'center',
+          'bbox': dict(boxstyle="round", fc="w", ec="k", pad=0.5)})
+ax.set(xlabel='$t$',ylabel="density")
+plt.savefig('lambda_nT.pdf', dpi = 120)
+plt.show()
+
+
+
+The area AFTER the dashed line is the probability we are looking for. You can see is very large. 
+That can be computed with
+
+1 - norm.cdf(n/T,loc=1*T,scale=0.2*T)
+"""
+
 
