@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.2.19)  31 MAR 2019 23:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.2.19)  31 MAR 2019 23:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -300,7 +300,7 @@ Package pdftex.def Info: nt_let.pdf  used on input line 58.
 <lambda_nT.pdf, id=51, 397.485pt x 289.08pt>
 File: lambda_nT.pdf Graphic file (type pdf)
 <use lambda_nT.pdf>
-Package pdftex.def Info: lambda_nT.pdf  used on input line 111.
+Package pdftex.def Info: lambda_nT.pdf  used on input line 110.
 (pdftex.def)             Requested size: 258.36218pt x 187.89977pt.
  [3 <./lambda_nT.pdf>]
 (/home/jemanj/Dropbox/python_projects/LET_sims/out/let_sim.aux) ) 
@@ -331,7 +331,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts
 msfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on /home/jemanj/Dropbox/python_projects/LET_sims/out/let_sim.pdf
- (3 pages, 343141 bytes).
+ (3 pages, 343151 bytes).
 PDF statistics:
  135 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams
