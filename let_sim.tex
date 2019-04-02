@@ -7,21 +7,40 @@
 \documentclass[11pt]{article}
 
 % Packages
+\usepackage[margin=1in]{geometry}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage[]{bm}
 \usepackage{float}
-\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{tcolorbox} %para cajas de texto
+\usepackage{sectsty}
+\usepackage[sf,bf]{titlesec}
 
-\title{Learning to time (LeT): A tutorial}
-\author{Emmanuel Alcalá}
+\definecolor{hd}{rgb}{0.2,0.2,0.7}
+\definecolor{tit}{rgb}{0.1,0.4,0.7}
+
+\sectionfont{\color{hd}}
+\subsectionfont{\color{hd}}
+\subsubsectionfont{\color{hd}}
+
+
+\title{\color{tit} \textsf{\textbf{Learning to time (LeT): A tutorial}}}
+%\subtitle{CEIC, Universidad de Guadalajara}
+\author{\normalsize Emmanuel Alcalá\\
+        \normalsize CEIC, Universidad de Guadalajara}
+\date{\today}
+
+
 % Document
 \begin{document}
 
     \maketitle
 
     \section{States dynamics}
+
+I based this manuscript in paper by Machado, Malheiro and Erlhagen (2009).
 
 LeT have three components:
 
@@ -39,7 +58,18 @@ The states advance at a rate $\lambda$, which is a normal random variable.
 
     The symbol $\sim$ means "distributed as", and $\mathcal{N}$ is for the Normal Density Function, but often referred
     as \textit{normal distribution}, not to be confused with the \textit{cumulative distribution function}.
-    Every $i$-th trial, a value $\lambda_i$ is sampled and the trial advance from $t = 1$ until $T$, the time of reinforcement, so that the
+
+Every $i$-th trial, a value $\lambda_i$ is sampled from $\mathcal{N}$ and the current state at $t$ is $N(t) = \lambda t$, that is,
+the state at time $t$ is the product of the time passed and rate $\lambda$ (which is states/second).
+Because $N$ must be an integer, the authors use a ceiling function to round $\lambda t$.
+They define a ceiling function, denoted by $\lceil x \rceil$, like the \textit{smallest integer greater than $x$}.
+That is,
+
+    \[
+        \lceil \lambda T \rceil = \lambda T + \varepsilon
+    \]
+
+So, for example, $\lceil 1.2 \rceil = 2$. The trial advance from $t = 1$ until $T$, the time of reinforcement, so that the
 reinforced state is $N(t = T)$.
     The states transitions form the random process $N(t) = \lceil {\lambda t} \rceil$.
     The $N$ states starts at 1 and are activated serially.
@@ -61,6 +91,7 @@ $\mathbf{N^*} = \boldsymbol{\lambda} T$.
                     states spread around the true value of $T$ (40 s), so they approximate a normal distribution with mean
                     $\mu \times t$ and standard deviation $\sigma \times t$ (right panel).}
     \end{figure}
+
     The states below $N(t)$ are extinguished, and the states above are inactive.
     There is a $q(n,T)$ probability that the state $n$ is extinguished at $T$, and a probability $p(n,T)$ that it is reinforced.
     Also, there is a $r(n,T)$ probability that the $n$ state will be inactive (i.e., the trial will end before $T$, and

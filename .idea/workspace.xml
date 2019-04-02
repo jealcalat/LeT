@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9266f32b-bf8b-4412-981b-bc612f8e7622" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/let.py" beforeDir="false" afterPath="$PROJECT_DIR$/let.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/let_sim.tex" beforeDir="false" afterPath="$PROJECT_DIR$/let_sim.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/let_sim.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/let_sim.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/let_sim.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.synctex.gz" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,17 +40,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/let.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="165" column="4" lean-forward="true" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="37" />
+            <state relative-caret-position="782">
+              <caret line="192" column="12" lean-forward="true" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="12" />
               <folding>
                 <element signature="e#0#294#1" expanded="true" />
                 <element signature="e#296#314#0" expanded="true" />
+                <element signature="e#790#839#1" expanded="true" />
+                <element signature="e#3637#4973#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -58,13 +64,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/let_sim.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="104" column="93" selection-start-line="104" selection-start-column="93" selection-end-line="104" selection-end-column="93" />
+            <state relative-caret-position="210">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
-                <element signature="e#89#109#2" expanded="true" />
+                <element signature="e#89#122#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -241,7 +247,8 @@
       <workItem from="1553972616890" duration="546000" />
       <workItem from="1553973411308" duration="8357000" />
       <workItem from="1554058084668" duration="13758000" />
-      <workItem from="1554092806719" duration="4670000" />
+      <workItem from="1554092806719" duration="5420000" />
+      <workItem from="1554162216979" duration="8164000" />
     </task>
     <task id="LOCAL-00001" summary="sim lambda">
       <created>1553844879605</created>
@@ -327,11 +334,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554097407144</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Equations for p, q and r">
+      <created>1554097496577</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554097496577</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56147000" />
+    <option name="totallyTimeSpent" value="65061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,10 +357,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="42" width="1920" height="1008" extended-state="6" />
+    <frame x="-1" y="41" width="1922" height="1010" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49886876" visible="true" weight="0.09478168" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49886876" visible="true" weight="0.09531417" />
       <window_info id="Structure" order="1" sideWeight="0.50113124" side_tool="true" weight="0.07401491" />
       <window_info id="Favorites" order="2" sideWeight="0.50113124" side_tool="true" weight="0.07401491" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -359,14 +373,14 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49840257" weight="0.2343934" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298611" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4227902" side_tool="true" weight="0.24197248" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.6341853" weight="0.18004587" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.6341853" weight="0.30963302" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.4219219" weight="0.32960597" />
-      <window_info anchor="right" x="1942" y="146" width="1033" height="518" id="SciView" order="4" sideWeight="0.702509" type="WINDOWED" weight="0.29765707" />
+      <window_info anchor="right" x="1938" y="155" width="1041" height="513" id="SciView" order="4" sideWeight="0.702509" type="WINDOWED" weight="0.29765707" />
       <window_info anchor="right" x="0" y="0" width="430" height="808" id="Documentation" order="5" sideWeight="0.5780781" side_tool="true" visible="true" weight="0.3455804" />
     </layout>
   </component>
@@ -428,6 +442,29 @@
     <entry file="file://$PROJECT_DIR$/../ISLR_py/ISRLpy_ch1.ipynb" />
     <entry file="file://$PROJECT_DIR$/nt_let.png" />
     <entry file="file://$PROJECT_DIR$/lambda_nT.png" />
+    <entry file="file://$PROJECT_DIR$/let_sim.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="e#89#122#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/let.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="192" column="12" lean-forward="true" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#294#1" expanded="true" />
+            <element signature="e#296#314#0" expanded="true" />
+            <element signature="e#790#839#1" expanded="true" />
+            <element signature="e#3637#4973#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -440,27 +477,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/let.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="165" column="4" lean-forward="true" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#294#1" expanded="true" />
-            <element signature="e#296#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/let_sim.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="104" column="93" selection-start-line="104" selection-start-column="93" selection-end-line="104" selection-end-column="93" />
-          <folding>
-            <element signature="e#89#109#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

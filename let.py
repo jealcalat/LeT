@@ -167,3 +167,39 @@ That can be computed with
 """
 
 
+"""
+tests: how much is epsilon in the ceiling function?
+
+
+def epsi(t, mean, sd):
+    lmbd = np.random.normal(mean, sd, 1)
+    vec_time = np.arange(t)
+    nt_iter = np.zeros(t)
+
+    while lmbd < 0:
+        lmbd = np.random.normal(mean, sd, 1)
+
+    for j in vec_time:
+        nt_iter[j] = np.ceil(lmbd * j) - lmbd * j
+    return nt_iter.mean()
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+t = 40
+mean = 1
+sd = 0.01
+trials = 200
+eps = np.zeros(trials)
+
+for jj in np.arange(trials):
+    eps[jj] = epsi(t, mean*t, sd*t)
+
+plt.hist(eps)
+plt.axvline(x = np.mean(eps), color='r')
+plt.show()
+
+
+    
+"""
