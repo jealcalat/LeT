@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9266f32b-bf8b-4412-981b-bc612f8e7622" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda_nT.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/lambda_nT.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/let.py" beforeDir="false" afterPath="$PROJECT_DIR$/let.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/let_sim.tex" beforeDir="false" afterPath="$PROJECT_DIR$/let_sim.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/let_sim.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/let_sim.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/let_sim.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/let_sim.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.synctex.gz" afterDir="false" />
@@ -40,19 +42,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/let.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="192" column="12" lean-forward="true" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#294#1" expanded="true" />
-                <element signature="e#296#314#0" expanded="true" />
-                <element signature="e#790#839#1" expanded="true" />
-                <element signature="e#3637#4973#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -64,14 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/let_sim.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-              <folding>
-                <element signature="e#89#122#2" expanded="true" />
-              </folding>
+            <state relative-caret-position="562">
+              <caret line="176" selection-start-line="176" selection-end-line="176" />
             </state>
           </provider>
         </entry>
@@ -91,16 +84,17 @@
       <list>
         <option value="$PROJECT_DIR$/../ISLR_py/ISRLpy_ch1.ipynb" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/let.py" />
         <option value="$PROJECT_DIR$/let_sim.tex" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-95" />
-    <option name="y" value="42" />
-    <option name="width" value="1919" />
-    <option name="height" value="1002" />
+    <option name="x" value="-13" />
+    <option name="y" value="43" />
+    <option name="width" value="1920" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -130,6 +124,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
   </component>
@@ -248,7 +243,12 @@
       <workItem from="1553973411308" duration="8357000" />
       <workItem from="1554058084668" duration="13758000" />
       <workItem from="1554092806719" duration="5420000" />
-      <workItem from="1554162216979" duration="8164000" />
+      <workItem from="1554162216979" duration="8884000" />
+      <workItem from="1554265329052" duration="1418000" />
+      <workItem from="1554775384520" duration="5528000" />
+      <workItem from="1554822602494" duration="40000" />
+      <workItem from="1554822680368" duration="5270000" />
+      <workItem from="1554838178129" duration="569000" />
     </task>
     <task id="LOCAL-00001" summary="sim lambda">
       <created>1553844879605</created>
@@ -341,11 +341,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554097496577</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Edit equations">
+      <created>1554175066252</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554175066253</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65061000" />
+    <option name="totallyTimeSpent" value="78606000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,15 +364,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="41" width="1922" height="1010" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="41" width="1922" height="1013" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49886876" visible="true" weight="0.09531417" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49886876" visible="true" weight="0.10021322" />
       <window_info id="Structure" order="1" sideWeight="0.50113124" side_tool="true" weight="0.07401491" />
       <window_info id="Favorites" order="2" sideWeight="0.50113124" side_tool="true" weight="0.07401491" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5772098" visible="true" weight="0.3337156" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5772098" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,15 +379,15 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49840257" weight="0.2343934" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298611" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4227902" side_tool="true" weight="0.24197248" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.6341853" weight="0.30963302" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.6341853" weight="0.20975056" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.4219219" weight="0.32960597" />
-      <window_info anchor="right" x="1938" y="155" width="1041" height="513" id="SciView" order="4" sideWeight="0.702509" type="WINDOWED" weight="0.29765707" />
-      <window_info anchor="right" x="0" y="0" width="430" height="808" id="Documentation" order="5" sideWeight="0.5780781" side_tool="true" visible="true" weight="0.3455804" />
+      <window_info anchor="right" x="734" y="91" width="1185" height="463" id="SciView" order="4" sideWeight="0.702509" type="WINDOWED" weight="0.29765707" />
+      <window_info anchor="right" x="0" y="0" width="430" height="808" id="Documentation" order="5" sideWeight="0.5780781" side_tool="true" visible="true" weight="0.31823027" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +439,8 @@
     <MESSAGE value="latex added" />
     <MESSAGE value="URLs" />
     <MESSAGE value="Equations for p, q and r" />
-    <option name="LAST_COMMIT_MESSAGE" value="Equations for p, q and r" />
+    <MESSAGE value="Edit equations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit equations" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LET_sims$let.coverage" NAME="let Coverage Results" MODIFIED="1553829226386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -442,30 +449,20 @@
     <entry file="file://$PROJECT_DIR$/../ISLR_py/ISRLpy_ch1.ipynb" />
     <entry file="file://$PROJECT_DIR$/nt_let.png" />
     <entry file="file://$PROJECT_DIR$/lambda_nT.png" />
-    <entry file="file://$PROJECT_DIR$/let_sim.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="e#89#122#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
     <entry file="file://$PROJECT_DIR$/let.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="192" column="12" lean-forward="true" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#294#1" expanded="true" />
-            <element signature="e#296#314#0" expanded="true" />
-            <element signature="e#790#839#1" expanded="true" />
-            <element signature="e#3637#4973#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="285">
@@ -474,9 +471,11 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/let_sim.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
         </state>
       </provider>
     </entry>

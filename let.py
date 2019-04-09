@@ -137,7 +137,7 @@ from matplotlib import rc
 rc('text', usetex=True)  # if LaTeX is installed, otherwise comment
 rc('figure', figsize=(5.5, 4))
 
-T, n = 40, 15
+T, n = 40, 35
 
 t = np.arange(0, 100, 0.1)
 pt = norm.pdf(t, loc=1 * T, scale=0.2 * T)
@@ -148,10 +148,10 @@ fig, ax = plt.subplots()
 ax.plot(t, pt, 'b-', linewidth=1)
 ax.axvline(x=n, linestyle="--", color = 'b',lw = 1)
 ax.fill_between(t[t>n],pt[t>n],0, alpha=0.5, color='grey')
-ax.annotate("$n = 15$",xy = (n,pt[t == n]), xytext = (0,0.01),
+ax.annotate("$n = {}$".format(n),xy = (n,pt[t == n]), xytext = (0,0.01),
             arrowprops=dict(arrowstyle="->"))
 ax.text(60, np.max(pt)/2,
-         r'$P(\lambda > \frac{{15}}{{40}}) \approx {{{}}}$'.format(pla),
+         r'$P(\lambda > \frac{{35}}{{40}}) \approx {{{}}}$'.format(pla),
          {'color': 'k', 'fontsize': 10, 'ha': 'center', 'va': 'center',
           'bbox': dict(boxstyle="round", fc="w", ec="k", pad=0.5)})
 ax.set(xlabel='$t$',ylabel="density")
@@ -164,8 +164,41 @@ The area AFTER the dashed line is the probability we are looking for. You can se
 That can be computed with
 
 1 - norm.cdf(n/T,loc=1*T,scale=0.2*T)
+
+They provide an approximation for Phi(n/T,mu,sigma) - Phi((n-1)/T,mu,sigma),
+which I think is not necessary, since sofware have cdf
+
+n = 44
+T = 45
+mu = 1
+sig = 0.2
+
+
+print(norm.cdf(n/T,mu,sig) - norm.cdf((n-1)/T,mu,sig))
+
+print(1/T * norm.pdf(n/T,mu,sig))
+
 """
 
+"""
+Which is the most probable state being reinforced?
+Likelihood function
+
+"""
+
+rc('text', usetex=True)
+n = np.arange(0, T * 3, 1)
+lik = norm.pdf(n, loc=1 * T, scale=0.2 * T)
+ml_state = n[np.argmax(lik)]
+fig, ax = plt.subplots()
+ax.plot(n, lik, 'b-', linewidth=1)
+ax.scatter(ml_state, np.max(lik))
+ax.annotate(r"Max $\mathcal L (n) :{}$".format(ml_state), xy=(ml_state, np.max(lik)),
+            xytext=(T * 1.2, np.max(lik) / 1.2),
+            arrowprops=dict(arrowstyle="->"))
+ax.set(xlabel = 'states ($n$)')
+ax.set(ylabel='$p(n = T)$')
+plt.show()
 
 """
 tests: how much is epsilon in the ceiling function?

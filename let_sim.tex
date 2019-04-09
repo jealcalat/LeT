@@ -56,8 +56,10 @@ The states advance at a rate $\lambda$, which is a normal random variable.
         \lambda \sim \mathcal{N} (\mu, \sigma),\; \lambda > 0
     \]
 
-    The symbol $\sim$ means "distributed as", and $\mathcal{N}$ is for the Normal Density Function, but often referred
-    as \textit{normal distribution}, not to be confused with the \textit{cumulative distribution function}.
+    The symbol $\sim$ means "distributed as", and $\mathcal{N}$ is for the normal distribution with parameters
+    $\mu$ and $\sigma$, not to be confused with the \textit{cumulative distribution function} \footnote{The authors use
+        a different notation. For example, $N(x,\mu,\sigma)$ for the normal density function evaluated at $x$. This is a
+        bit confusing since every density evaluated at $x$ is 0}.
 
 Every $i$-th trial, a value $\lambda_i$ is sampled from $\mathcal{N}$ and the current state at $t$ is $N(t) = \lambda t$, that is,
 the state at time $t$ is the product of the time passed and rate $\lambda$ (which is states/second).
@@ -85,7 +87,7 @@ $\mathbf{N^*} = \boldsymbol{\lambda} T$.
 
     \begin{figure}[H]
             \centering
-            \includegraphics[scale=0.7]{nt_let}
+            \includegraphics[scale=0.5]{nt_let}
             \caption{Example of a process of 400 trials. The left panel shows the state transitions for every
                     $\lambda$ sampled from the normal distribution (see the textbox inset). At $t = 40$, the reinforced
                     states spread around the true value of $T$ (40 s), so they approximate a normal distribution with mean
@@ -131,16 +133,16 @@ and $T = 40$, $q(15,40) = P \Big( \lambda > \frac{15}{40} \Big)$ or $1 - \Phi(\f
         1 - norm.cdf(n/T,loc=1,scale=0.2)
     \end{verbatim}
 
-Returns 0.99911, that is, the probability (actually, the density, or the area under the curve, etc) of state 15 being an
-    extinguished state is very high.
-    We can also interpret that quantity in terms of expected proportion of trials with state 15 not reinforced.
+Returns 0.734014, that is, the probability (actually, the density, or the area under the curve, etc) of state 35 being an
+    extinguished state is about 74 \%.
+    We can also interpret that quantity in terms of expected proportion of trials in which state 35 not reinforced.
     See Figure 2 for a graphical representation of this probability just calculated.
 
     \begin{figure}[H]
         \centering
-        \includegraphics[scale=0.65]{lambda_nT}
+        \includegraphics[scale=0.5]{lambda_nT}
         \caption{Probability density function of a normal distribution with $\mu = 1, \sigma = 0.2$ for $t = 1,2,3..,40$.
-        Shaded area shows the density $P(\lambda > 15/40)$, which means that is \textit{highly} probable that state 15
+        Shaded area shows the density $P(\lambda > 35/40)$, which means that is moderately probable that state 35
         is a extinguished state.}
     \end{figure}
 
@@ -163,6 +165,25 @@ Returns 0.99911, that is, the probability (actually, the density, or the area un
     achieved that solution. The approximation is
 
     \[
-        p(n,T) \approx \frac{1}{T} \mathcal{N} \Big(\frac{n}{T},\mu,\sigma \Big)
+        p(n,T) \approx \frac{1}{T} \phi_{\mu,\sigma} \Big(\frac{n}{T}\Big)
     \]
+
+    One way to get into this is by the following reasoning. Let $f(x)$ be $\phi_{\mu,\sigma}$, the normal pdf:
+
+    \begin{align*}
+        p(n,T) &= \Phi \Big ( \frac{n}{T}, \mu, \sigma \Big) - \Phi \Big ( \frac{n - 1}{T},\mu,\sigma \Big)\\
+               &= \int\limits_{\frac{n-1}{T}}^{\frac{n}{T}} f(x)dx\\
+    \end{align*}
+
+    If we approximate $\phi_{\mu,\sigma}$ by taking the upper value of the definite integral, and
+    since this is a constant (the pdf evaluated ad the upper limit): we have
+
+    \begin{align*}
+        p(n,T) &= \int\limits_{\frac{n-1}{T}}^{\frac{n}{T}} f \Big( \frac{n}{T} \Big)dx\\
+               &= f \Big (\frac{n}{T} \Big)\int\limits_{\frac{n-1}{T}}^{\frac{n}{T}}dx \\
+               &= f \Big (\frac{n}{T} \Big) \Big (\frac{n}{T} - \frac{n-1}{T} \Big) \\
+               &= f \Big (\frac{n}{T} \Big) \Big (\frac{1}{T} \Big) \\
+        \text{Q.E.D}
+    \end{align*}
+
 \end{document}
