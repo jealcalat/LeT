@@ -53,8 +53,8 @@ ax2 = plt.subplot(gs[0,3])
 for jj in np.arange(trials):
     Nt = n_t(t, mean, sd)
     trial_rf[jj] = Nt[-1]
-    ax1.step(time,Nt, c = 'grey', lw = 1, alpha = 0.3)
-    ax1.scatter(time[-1], Nt[-1], c = 'black', s =  10, alpha = 0.5)
+    ax1.step(time,Nt, c='grey', lw=1, alpha=0.3)
+    ax1.scatter(time[-1], Nt[-1], c='black', s=10, alpha=0.5)
 
 ax1.text(10, np.max(trial_rf) - 5,
          r'$\lambda \sim \mathcal{{N}}(\mu = 1, \sigma = {{{}}})$'.format(sd) + "\n" +
@@ -70,9 +70,8 @@ ax2.set_ylim(0,np.max(trial_rf))
 ax2.yaxis.set_label_position("right")
 ax2.axhline(y = np.mean(trial_rf), color = 'black', linestyle = ":")
 ax2.set_ylabel(r'$N(t = T)$')
-plt.savefig('nt_let.pdf', dpi = 120)
+# plt.savefig('nt_let.pdf', dpi = 120)
 plt.show()
-
 
 """
 Old sim, with gamma distribution. 
@@ -184,26 +183,31 @@ print(1/T * norm.pdf(n/T,mu,sig))
 Which is the most probable state being reinforced?
 Likelihood function
 
-"""
-
+T, ns = 40, 35
 rc('text', usetex=True)
 n = np.arange(0, T * 3, 1)
 lik = norm.pdf(n, loc=1 * T, scale=0.2 * T)
 ml_state = n[np.argmax(lik)]
+bel_state = lik[n == ns]
 fig, ax = plt.subplots()
 ax.plot(n, lik, 'b-', linewidth=1)
 ax.scatter(ml_state, np.max(lik))
 ax.annotate(r"Max $\mathcal L (n) :{}$".format(ml_state), xy=(ml_state, np.max(lik)),
             xytext=(T * 1.2, np.max(lik) / 1.2),
             arrowprops=dict(arrowstyle="->"))
+ax.scatter(ns, bel_state)
+ax.annotate(r"$\mathcal L (n<T) :{}$".format(ns), xy=(ns, bel_state),
+            xytext=(ns, bel_state / 1.2),
+            arrowprops=dict(arrowstyle="->"))
 ax.set(xlabel = 'states ($n$)')
 ax.set(ylabel='$p(n = T)$')
 plt.show()
 
+
+"""
+
 """
 tests: how much is epsilon in the ceiling function?
-
-
 def epsi(t, mean, sd):
     lmbd = np.random.normal(mean, sd, 1)
     vec_time = np.arange(t)
@@ -232,6 +236,8 @@ for jj in np.arange(trials):
 plt.hist(eps)
 plt.axvline(x = np.mean(eps), color='r')
 plt.show()
+
+
 
 
     

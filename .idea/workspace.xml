@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9266f32b-bf8b-4412-981b-bc612f8e7622" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LET_sims.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LET_sims.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda_nT.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/lambda_nT.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/let.py" beforeDir="false" afterPath="$PROJECT_DIR$/let.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/let_sim.tex" beforeDir="false" afterPath="$PROJECT_DIR$/let_sim.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/let_sim.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/let_sim.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/let_sim.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/let_sim.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/let_sim.synctex.gz" afterDir="false" />
@@ -39,37 +40,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/let.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="19" selection-start-line="19" selection-end-line="19" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/let_sim.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="176" selection-start-line="176" selection-end-line="176" />
+            <state>
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#296#314#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -85,22 +75,25 @@
         <option value="$PROJECT_DIR$/../ISLR_py/ISRLpy_ch1.ipynb" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-        <option value="$PROJECT_DIR$/let.py" />
         <option value="$PROJECT_DIR$/let_sim.tex" />
+        <option value="$PROJECT_DIR$/OLD/let_states.py" />
+        <option value="$PROJECT_DIR$/let.py" />
+        <option value="$PROJECT_DIR$/st.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-13" />
-    <option name="y" value="43" />
-    <option name="width" value="1920" />
-    <option name="height" value="1008" />
+    <option name="x" value="240" />
+    <option name="y" value="162" />
+    <option name="width" value="1440" />
+    <option name="height" value="763" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,7 +110,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,8 +117,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documentos/2019A/paper_gen_decrement/analysis/py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="LaTeX.let_sim">
+  <component name="RunManager" selected="Python.let">
     <configuration name="LET_sims" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="LET_sims" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,6 +154,8 @@
       <texify>
         <compiler>PDFLATEX</compiler>
         <compiler-path />
+        <sumatra-path />
+        <viewer-command />
         <compiler-arguments />
         <main-file>$PROJECT_DIR$/let_sim.tex</main-file>
         <aux-dir>false</aux-dir>
@@ -217,7 +211,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="LaTeX.let_sim" />
         <item itemvalue="Python.let" />
         <item itemvalue="Python.let" />
       </list>
@@ -248,7 +241,22 @@
       <workItem from="1554775384520" duration="5528000" />
       <workItem from="1554822602494" duration="40000" />
       <workItem from="1554822680368" duration="5270000" />
-      <workItem from="1554838178129" duration="569000" />
+      <workItem from="1554838178129" duration="3855000" />
+      <workItem from="1554949295134" duration="2278000" />
+      <workItem from="1555452481243" duration="83000" />
+      <workItem from="1556150087957" duration="322000" />
+      <workItem from="1556551051761" duration="84000" />
+      <workItem from="1557469499166" duration="17000" />
+      <workItem from="1557500119368" duration="501000" />
+      <workItem from="1557500663971" duration="1713000" />
+      <workItem from="1557503357517" duration="1004000" />
+      <workItem from="1558103781078" duration="2475000" />
+      <workItem from="1558122371576" duration="1621000" />
+      <workItem from="1558231415265" duration="486000" />
+      <workItem from="1559190439260" duration="70000" />
+      <workItem from="1559190524718" duration="111000" />
+      <workItem from="1562284402958" duration="484000" />
+      <workItem from="1562783698822" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="sim lambda">
       <created>1553844879605</created>
@@ -348,11 +356,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554175066253</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="qed of eq A4">
+      <created>1554838770883</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554838770884</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78606000" />
+    <option name="totallyTimeSpent" value="93227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,14 +379,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="41" width="1922" height="1013" extended-state="6" />
+    <frame x="-1" y="34" width="1922" height="1019" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49886876" visible="true" weight="0.10021322" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49886876" visible="true" weight="0.116204694" />
       <window_info id="Structure" order="1" sideWeight="0.50113124" side_tool="true" weight="0.07401491" />
       <window_info id="Favorites" order="2" sideWeight="0.50113124" side_tool="true" weight="0.07401491" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5772098" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5772098" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,15 +395,17 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49840257" weight="0.2343934" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298611" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4227902" side_tool="true" weight="0.24197248" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.6341853" weight="0.20975056" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.6341853" visible="true" weight="0.25142208" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.4219219" weight="0.32960597" />
-      <window_info anchor="right" x="734" y="91" width="1185" height="463" id="SciView" order="4" sideWeight="0.702509" type="WINDOWED" weight="0.29765707" />
-      <window_info anchor="right" x="0" y="0" width="430" height="808" id="Documentation" order="5" sideWeight="0.5780781" side_tool="true" visible="true" weight="0.31823027" />
+      <window_info anchor="right" x="0" y="66" width="1920" height="986" id="SciView" maximized="true" order="4" sideWeight="0.702509" type="WINDOWED" weight="0.29765707" />
+      <window_info active="true" anchor="right" x="0" y="0" width="430" height="808" id="Documentation" order="5" sideWeight="0.5780781" side_tool="true" visible="true" weight="0.26144835" />
+      <window_info anchor="right" id="R Graphics" order="6" />
+      <window_info anchor="right" id="R Packages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +458,8 @@
     <MESSAGE value="URLs" />
     <MESSAGE value="Equations for p, q and r" />
     <MESSAGE value="Edit equations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit equations" />
+    <MESSAGE value="qed of eq A4" />
+    <option name="LAST_COMMIT_MESSAGE" value="qed of eq A4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LET_sims$let.coverage" NAME="let Coverage Results" MODIFIED="1553829226386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -450,10 +469,10 @@
     <entry file="file://$PROJECT_DIR$/nt_let.png" />
     <entry file="file://$PROJECT_DIR$/lambda_nT.png" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-    <entry file="file://$PROJECT_DIR$/let.py">
+    <entry file="file://$PROJECT_DIR$/let_sim.tex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="453">
+          <caret line="163" column="40" selection-start-line="163" selection-start-column="40" selection-end-line="163" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -472,10 +491,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/let_sim.tex">
+    <entry file="file://$PROJECT_DIR$/OLD/let.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
+        <state relative-caret-position="720">
+          <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+          <folding>
+            <element signature="e#37#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OLD/let_states.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/st.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/let.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#296#314#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
