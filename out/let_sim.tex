@@ -40,14 +40,14 @@
 
     \section{States dynamics}
 
-I based this manuscript in paper by Machado, Malheiro and Erlhagen (2009).
+I based this manuscript in the paper by Machado, Malheiro and Erlhagen (2009).
 
 LeT have three components:
 
     \begin{itemize}
         \item A series of (behavioral) states.
         \item Associative links connecting states to a operant response.
-        \item The operant response
+        \item The operant response.
     \end{itemize}
 
 The states advance at a rate $\lambda$, which is a normal random variable.
@@ -57,12 +57,10 @@ The states advance at a rate $\lambda$, which is a normal random variable.
     \]
 
     The symbol $\sim$ means "distributed as", and $\mathcal{N}$ is for the normal distribution with parameters
-    $\mu$ and $\sigma$, not to be confused with the \textit{cumulative distribution function} \footnote{The authors use
-        a different notation. For example, $N(x,\mu,\sigma)$ for the normal density function evaluated at $x$. This is a
-        bit confusing since every density evaluated at $x$ is 0}.
+    $\mu$ and $\sigma$, not to be confused with the \textit{cumulative distribution function} \footnote{The authors use a different notation. For example, $N(x,\mu,\sigma)$ for the normal density function evaluated at $x$. This is a bit confusing since every density evaluated at $x$ is 0}.
 
 Every $i$-th trial, a value $\lambda_i$ is sampled from $\mathcal{N}$ and the current state at $t$ is $N(t) = \lambda t$, that is,
-the state at time $t$ is the product of the time passed and rate $\lambda$ (which is states/second).
+the state at time $t$ is the product of the time elapsed and rate $\lambda$ (which is states/second).
 Because $N$ must be an integer, the authors use a ceiling function to round $\lambda t$.
 They define a ceiling function, denoted by $\lceil x \rceil$, like the \textit{smallest integer greater than $x$}.
 That is,
@@ -88,10 +86,7 @@ $\mathbf{N^*} = \boldsymbol{\lambda} T$.
     \begin{figure}[H]
             \centering
             \includegraphics[scale=0.7]{nt_let}
-            \caption{Example of a process of 400 trials. The left panel shows the state transitions for every
-                    $\lambda$ sampled from the normal distribution (see the textbox inset). At $t = 40$, the reinforced
-                    states spread around the true value of $T$ (40 s), so they approximate a normal distribution with mean
-                    $\mu \times t$ and standard deviation $\sigma \times t$ (right panel).}
+            \caption{Example of a process of 400 trials. The left panel shows the state transitions for every $\lambda$ sampled from the normal distribution (see the textbox inset). At $t = 40$, the reinforced states spread around the true value of $T$ (40 s), so they approximate a normal distribution with mean $\mu \times t$ and standard deviation $\sigma \times t$ (right panel).}
     \end{figure}
 
     The states below $N(t)$ are extinguished, and the states above are inactive.
@@ -133,8 +128,7 @@ and $T = 40$, $q(15,40) = P \Big( \lambda > \frac{15}{40} \Big)$ or $1 - \Phi(\f
         1 - norm.cdf(n/T,loc=1,scale=0.2)
     \end{verbatim}
 
-Returns 0.734014, that is, the probability (actually, the density, or the area under the curve, etc) of state 35 being an
-    extinguished state is about 74 \%.
+Returns 0.734014, that is, the probability (actually, the density, or the area under the curve, etc) of state 35 being an extinguished state is about 74 \%.
     We can also interpret that quantity in terms of expected proportion of trials in which state 35 is \textit{not reinforced}.
     See Figure 2 for a graphical representation of this probability just calculated.
 
@@ -167,7 +161,7 @@ Returns 0.734014, that is, the probability (actually, the density, or the area u
     \[
         p(n,T) \approx \frac{1}{T} \phi_{\mu,\sigma} \Big(\frac{n}{T}\Big)
     \]
-    On which $\phi_{\mu,\sigma}(\frac{n}{T})$ is the normal probability density function (pdf) evaluated at $\frac{n}{T}$.
+    On which $\phi_{\mu,\sigma}(\frac{n}{T})$ is the normal probability density function (pdf\footnote{Note that the notation for the CDF and the pdf is different: we use bold capital letters for the CDF, and lowercase letters for the pdf}) evaluated at $\frac{n}{T}$.
     One way to get into this is by the following reasoning. The CDFs above can be rewritten as a definite integral
 
     \begin{align*}
@@ -187,9 +181,9 @@ Returns 0.734014, that is, the probability (actually, the density, or the area u
         \text{Q.E.D}
     \end{align*}
 
-    From the above equation, the authors derive the scalar property.
-
-    \[
-        cv
-    \]
+%    From the above equation, the authors derive the scalar property.
+%
+%    \[
+%        cv
+%    \]
 \end{document}
