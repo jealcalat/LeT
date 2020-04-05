@@ -4,7 +4,7 @@ This is a work in progress
 
 This simulation uses Python 3.
 
-[Read the pdf tutorial here (Typesetted in LaTeX, obviously).](out/let_sim.pdf)
+[Read the pdf tutorial here (and the corresponding TeX file).](out/let_sim.pdf)
 
 [Here is the python file (in progress)](let.py)
 
